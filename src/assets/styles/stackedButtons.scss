@@ -1,0 +1,33 @@
+.stacked-buttons{
+    width: 80%;
+    margin-bottom: 3rem;
+
+    &__single{
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    &__check-mark{
+        width: 2rem;
+        margin-right: 1rem;
+
+        &--hidden{
+            visibility: hidden;
+        }
+    }
+
+    &__button{
+        height: 5rem;
+        width: 90%;
+        font-weight: bold;
+        background-color: grey;
+        border: none;
+        color: #ffffff;
+        font-size: 1.6rem;
+        border-radius: .5rem;
+        text-align: left;
+        padding-left: 3rem;
+        cursor: pointer;
+    }
+}

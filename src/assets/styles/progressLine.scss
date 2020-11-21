@@ -1,0 +1,27 @@
+.progress{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 5rem;
+    left: 6.5rem;
+
+    &__arrow{
+        height: 2rem;
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+
+    &__line{
+        display: inline-block;
+        height: .5rem;
+        width: 1rem;
+        border-radius: .3rem;
+        background-color: lightgray;
+        margin-right: 1rem;
+
+        &--long{
+            width: 5rem;
+            background-color: gray;
+        }
+    }
+}
